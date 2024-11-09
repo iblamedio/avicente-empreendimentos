@@ -3,7 +3,7 @@ import './styles.css'
 
 type Props = {
     height: number;
-    bgColor: string;
+    bgColor?: string;
     textColor?: string;
     children?: React.ReactNode;
 }
@@ -12,7 +12,7 @@ export const LpSection: FunctionComponent<Props> = ({height, bgColor, textColor,
 
     const containerStyle = {
         "height": `${height}vh`,
-        "background-color": bgColor,
+        "backgroundColor": bgColor,
         "color": textColor
     }
 

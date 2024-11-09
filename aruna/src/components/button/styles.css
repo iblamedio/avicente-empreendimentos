@@ -1,0 +1,26 @@
+button {
+    transition: .2s;
+    width:350px;
+    padding:15px;
+    font-family:'Outfit';
+    font-size:2rem;
+    color: var(--blue);
+    border-radius:5em;
+    outline:none;
+    border:none;
+    font-weight: 500;
+
+    background: radial-gradient(farthest-corner at 0 0, #d6d6d6, var(--grey) 50%),
+    radial-gradient(farthest-corner at 100% 100%, #d6d6d6, var(--grey));
+
+    background-blend-mode: overlay;
+}
+
+button:hover {
+    transition: .2s;
+    cursor: pointer;
+
+    transform: scale(1.05);
+
+    background-blend-mode: overlay;
+}
