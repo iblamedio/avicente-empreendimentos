@@ -2,7 +2,7 @@ import React, { FunctionComponent } from "react";
 import './styles.css'
 
 type Props = {
-    height: number;
+    height?: number;
     bgColor?: string;
     textColor?: string;
     children?: React.ReactNode;
