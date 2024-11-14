@@ -1,12 +1,54 @@
-div.card-container {
-    /* background:linear-gradient(to bottom right, #d6d6d6, var(--grey), #d6d6d6);*/
-    background: radial-gradient(farthest-corner at 0 0, #d6d6d6, var(--grey) 50%),
-                radial-gradient(farthest-corner at 100% 100%, #d6d6d6, var(--grey));
+.card {
+    width:450px;
+    height:60px;
 
-                background-blend-mode: overlay;
+    background: 
+    linear-gradient(#1b1117 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to bottom, #12070D, #F7B142) border-box;
+    color: #F5EDF0;
+    padding: 15px 25px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    display:flex;
+    justify-content:start;
+    margin-top:15px;
+}
 
-    width: 350px;
-    height: 350px;
-    border-radius:.5em;
-    box-shadow: 0 0 25px black;
+.card-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:start;
+}
+
+.card-icon {
+    height:70px;
+    width:70px;
+}
+
+.card-text .card-title {
+    font-weight: 500;
+    color: #F5EDF0;
+}
+
+.card-text .card-paragraph {
+    font-weight: 300;
+    color: #B1B1B1;
+}
+
+#alarme {
+    height:58px;
+    width:45px;
+    margin:0 12px;
+}
+
+#economia {
+    height:64px;
+    width:44px;
+    margin:0 12px;
 }

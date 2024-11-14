@@ -186,3 +186,260 @@ img.carousel-image {
 .after-carousel .paragraphs span {
   font-weight: 600;
 }
+
+.third-section {
+  width:100vw;
+  padding:120px 0;
+  background-color: #12070D;
+}
+
+div.third-content {
+  width:1064px;
+  margin:auto;
+}
+
+div.third-content .title {
+  width:100%;
+  text-align:center;
+  font-family: 'Slash Signature Personal Use';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 110px;
+  color: #F7B142;
+}
+
+div.third-content p {
+  width:512px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color:#F5EDF0;
+}
+
+div.third-content p span {
+  font-weight:600;
+}
+
+div.cards {
+  display:flex;
+  justify-content:space-between;
+}
+
+.third-aruna-bg {
+  opacity:0.06;
+  border-radius: 183.5px;
+  position: absolute;
+  width: 681px;
+  height: 701px;
+  left: 960px;
+}
+
+.left-palm-tree {
+  position: absolute;
+  left: 0px;
+  opacity: 0.03;
+  transform: matrix(-0.97, 0.26, 0.26, 0.97, 0, 0);
+  
+}
+
+.saah-section {
+  width:100vw;
+  background-image: linear-gradient(to bottom, #F5EDF0 40%, #12070D 40%);
+}
+
+.saah-content {
+  width:1280px;
+  margin:auto;
+  padding:120px 0;
+  z-index: 50;
+}
+
+.saah-headline {
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.saah-headline img {
+  margin:auto;
+}
+
+.saah-headline h1 {
+  margin:0;
+  text-align:center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #12070D;
+}
+
+.saah-headline h1 span {
+  font-weight: 900;
+}
+
+.saah-stuff {
+  margin-top:110px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.saah-stuff p {
+  width:420px;
+  margin:0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #12070D;
+}
+
+.saah-stuff p span {
+  font-weight:600;
+}
+
+.saah-stuff img {
+  margin-top:-25px;
+  box-shadow: 0px 0px 16.1px 8px rgba(0, 0, 0, 0.377);
+  color:#F7B142;
+}
+
+.saah-stuff .saah-paragraphs .second-paragraph {
+  margin-top:120px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #F5EDF0;
+  width:545px;
+}
+
+.saah-cards {
+  width:100%;
+  margin-top:60px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.saah-card {
+  height:370px;
+  width:320px;
+  background: 
+    linear-gradient(#1b1117 0 0) padding-box, 
+    linear-gradient(to bottom, #12070D, #F7B142) border-box;
+
+  color: #F5EDF0;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-top:30px;
+}
+
+#middle-card {
+  width:430px;
+}
+
+.saah-card div {
+  width:280px;
+  margin-top:15px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color:#F5EDF0;
+}
+
+.saah-card div#middle-p {
+  width:380px;
+}
+
+.saah-card div span {
+  font-weight:600;
+}
+
+.saah-footer {
+  margin-top:30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color:#F5EDF0;
+}
+
+.plant-section {
+  width:100vw;
+  background-color: #12070D;
+}
+
+.plant-content {
+  width:1280px;
+  height:800px;
+  margin:auto;
+  padding:120px 0;
+}
+
+.plant-content img.plant-image {
+  margin-top:-50px;
+}
+
+.plant-content h1 {
+  margin:0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #F7B142;
+}
+
+.post-title-plant {
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:start;
+}
+
+.plant-cards {
+  height:800px;
+  display:flex;
+  flex-direction:column;
+  justify-content: end;
+}
+
+div.plant-card {
+  width:400px;
+  display:flex;
+  align-items:center;
+  justify-content: start;
+  margin-top:20px;
+}
+
+.plant-card-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #F5EDF0;
+  padding:5px 0 5px 20px;
+  border-left:solid 1px #F7B142;
+  margin-left:20px;
+  height:100px;
+  display:flex;
+  align-items:center;
+}
+
+.plant-card-text span {
+  font-size:48px;
+}
+
+
